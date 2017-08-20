@@ -1,0 +1,59 @@
+.header{
+  color:white;
+  font-size:30px;
+}
+.content{
+  background: #ECECEC;
+  padding:20px 30px;
+  margin: 0;
+  min-height: 665px;
+}
+.left{
+  width:19%;
+  float:left;
+  background-color:#fff;
+  padding:20px 0;
+}
+.right{
+  float:right;
+  width:80%;
+  background-color:white;
+  padding:10px;
+}
+.right input{
+  background-color: transparent;
+}
+.rightHeader{
+  font-size:16px;
+  color:rgba(0, 0, 0, 0.85);
+  display:block;
+  margin:5px;
+}
+.hr{
+  color:#ECECEC;
+}
+.rightContent{
+  padding:20px;
+  padding-bottom: 0;
+}
+.queryButton{
+  margin-left: 8px;
+}
+.headerTable tr th{
+  text-align: center;
+}
+.headerTable td{
+  text-align: center;
+}
+.lineTable tr th{
+  text-align: center;
+}
+.lineTable td{
+  text-align: center;
+}
+.lineTable tr td:nth-child(3),.lineTable tr td:nth-child(6),.lineTable tr td:nth-child(7),.lineTable tr td:nth-child(8){
+  background-color:rgb(245, 230, 160);
+}
+.lineTable tr td:nth-child(4),.lineTable tr td:nth-child(5){
+  background-color: #CCC;
+}
